@@ -4,11 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>CSS Animation</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
+		<link rel="stylesheet" href="css/app.css">
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
@@ -24,8 +25,20 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown="slides/title.md">
+				</section>
+				<section data-markdown="slides/why-flex.md">
+				</section>
+				<section data-markdown="slides/what-is-flex.md">
+				</section>
+				<section data-markdown="slides/why-animation.md">
+				</section>
+				<section data-markdown="slides/how-to-animation.md">
+				</section>
+				<section data-markdown="slides/what-is-transition.md">
+				</section>
+				<section data-markdown="slides/end.md">
+				</section>
 			</div>
 		</div>
 
@@ -33,10 +46,11 @@
 		<script src="js/reveal.js"></script>
 
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
+			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
@@ -45,5 +59,6 @@
 				]
 			});
 		</script>
+		<script src="js/app.js"></script>
 	</body>
 </html>
