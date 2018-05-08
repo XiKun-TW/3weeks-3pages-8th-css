@@ -429,9 +429,8 @@ HTML
     .flex-box {
         display: flex;
     }
-    .item-b {
-        align-self: auto;
-        *[flex-start|flex-end|center|baseline|stretch;]*
+    .flex-item {
+        flex-basis: 25%;
     }
     </code></pre>
     <div class="fargment flex-box">
