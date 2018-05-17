@@ -1,6 +1,3 @@
 ## Slides for 3week-3pages-8th-css
 
-###how to run this ?
-
-1. run `npm install`
-2. run `npm run start`
+https://xikun-tw.github.io/3weeks-3pages-8th-css/
